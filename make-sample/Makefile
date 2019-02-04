@@ -1,5 +1,7 @@
-TARGET = hello
 PREFIX = /usr/local/bin
+TARGET = hello
+UTIL_OBJ=util.o
+MAIN_OBJ=main.o
 
 .PHONY: all clean install uninstall
 
@@ -15,10 +17,10 @@ uninstall:
 	rm -rfv $(PREFIX)/$(TARGET)
 
 main.o: main.cpp
-	g++ -c -o main.o main.cpp
+	g++ -c -o $@ main.cpp
 
 util.o: util.cpp
-	g++ -c -o util.o util.cpp
+	g++ -c -o $@ util.cpp
 
-hello: main.o util.o
-	g++ -o hello main.o util.o
+hello: $(MAIN_OBJ) $(UTIL_OBJ)
+	g++ -o $@ $(MAIN_OBJ) $(UTIL_OBJ)
