@@ -60,3 +60,7 @@ gcc -c main.c -I../include
 gcc -c util.c -I../include -DHELLO
 gcc -o program main.o util.o
 ```
+
+# `make-sample`
+
+You just need to trigger `make`
