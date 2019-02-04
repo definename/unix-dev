@@ -1,6 +1,6 @@
 # Compile simple program
 
-In general `cc` it is alias for gcc:
+In general `cc` it is alias for gcc, with command creates binary file with name `a.out`:
 ```
 cc main.c
 ```
@@ -10,7 +10,7 @@ Directly use `gcc`:
 gcc main.c
 ```
 
-Set the name of the output binary file with `-o` flag:
+Sets the name of the output binary file with `-o` flag and creates binary file with given name `program`:
 ```
 gcc -o program main.c
 ```
