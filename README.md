@@ -2,7 +2,7 @@
 
 ## Simple program compilation
 
-In general `cc` it is alias for gcc, with command creates binary file with name `a.out`:
+In general `cc` it is alias for gcc, this command creates binary file with name `a.out`:
 ```
 cc main.c
 ```
