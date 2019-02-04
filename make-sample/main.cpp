@@ -3,6 +3,13 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << "Hello MAKE!! " << Do() << std::endl;
+	int var = 0;
+	for (int i = 0; i <= 5; ++i)
+	{
+		var = i;
+		std::cout << var << std::endl;
+	}
+
+	std::cout << "DO MAKE!! " << Do() << std::endl;
 	return 0;
 }
