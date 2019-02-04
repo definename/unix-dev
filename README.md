@@ -49,3 +49,11 @@ gcc -o program main.o util.o
 ```
 gcc -E main.c -I../include
 ```
+
+## Compile with preprocessor definition
+
+```
+gcc -c main.c -I../include
+gcc -c util.c -I../include -DHELLO
+gcc -o program main.o util.o
+```
