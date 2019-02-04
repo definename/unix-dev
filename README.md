@@ -54,7 +54,7 @@ gcc -E main.c -I../include
 
 ## Compile with preprocessor definition
 
-Creates object files `main.o`, `util.o` and binary file `program`
+Creates object files `main.o`, `util.o` and binary file with name `program`
 ```
 gcc -c main.c -I../include
 gcc -c util.c -I../include -DHELLO
