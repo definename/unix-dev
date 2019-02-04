@@ -15,10 +15,10 @@ uninstall:
 	rm -rfv $(PREFIX)/$(TARGET)
 
 main.o: main.cpp
-	$(CC) -c -o main.o main.cpp
+	g++ -c -o main.o main.cpp
 
 util.o: util.cpp
-	$(CC) -c -o util.o util.cpp
+	g++ -c -o util.o util.cpp
 
 hello: main.o util.o
-	$(CC) -o hello main.o util.o
+	g++ -o hello main.o util.o
