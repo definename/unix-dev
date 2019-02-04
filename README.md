@@ -1,3 +1,5 @@
+# `simple` folder
+
 ## Compile simple program
 
 In general `cc` it is alias for gcc, with command creates binary file with name `a.out`:
