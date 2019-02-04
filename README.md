@@ -1,4 +1,4 @@
-# `simple` folder
+# `simple`
 
 ## Compile simple program
 
@@ -27,4 +27,19 @@ gcc -c main.c
 This command creates binary file with name `program`
 ```
 gcc -o program main.o
+```
+
+# `with-header`
+
+Since headers `*.h` and sources `*.c` are located in different folders we need to tell `gcc` compiler where to find includes. In order to do that we need to add `-I../include` flag.
+
+Creates object files `main.o`, `util.o`
+```
+gcc -c main.c -I../include
+gcc -c util.c -I../include
+```
+
+Creates binary file `program`
+```
+gcc -o program main.o util.o
 ```
