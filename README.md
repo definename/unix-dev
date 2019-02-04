@@ -1,4 +1,4 @@
-# Command to compile program
+# Commands to compile program
 
 In general `cc` it is alias for gcc:
 ```
