@@ -29,7 +29,7 @@ This command creates binary file with name `program`
 gcc -o program main.o
 ```
 
-# `with-header`
+# `separate-compilation`
 
 Since headers `*.h` and sources `*.c` are located in different folders we need to tell `gcc` compiler where to find includes. In order to do that we need to add `-I../include` flag.
 
