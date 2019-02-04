@@ -3,5 +3,10 @@
 
 void Print()
 {
-	printf("Hello, World.\n");
+	#ifdef HELLO
+		printf("Hello, World.\n");
+	#else
+		printf("Good, World.\n");
+	#endif
+
 }
