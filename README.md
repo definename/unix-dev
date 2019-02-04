@@ -44,7 +44,7 @@ Creates binary file `program`
 gcc -o program main.o util.o
 ```
 
-## Run proprocessor
+## Run preprocessor
 
 ```
 gcc -E main.c -I../include
