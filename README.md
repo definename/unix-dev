@@ -74,7 +74,7 @@ Starts debuger
 gdb hello
 ```
 
-Sets break point on line 10 in file main.cpp 
+Sets breakpoint on line 10 in file main.cpp 
 ```
 break main.cpp:10
 ```
