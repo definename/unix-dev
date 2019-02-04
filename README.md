@@ -64,3 +64,7 @@ gcc -o program main.o util.o
 # `make-sample`
 
 You just need to trigger `make`
+
+## gdb
+
+In order to turn on debug support for your program you need to compile it with flag `-g` to allow writing debug information into binary file.
