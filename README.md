@@ -1,4 +1,4 @@
-# `simple`
+# `one-file`
 
 ## Compile simple program
 
