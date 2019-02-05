@@ -88,9 +88,6 @@ Prints value of `var` value
 print var
 ```
 
-Goes to another breakpoint
-```
-continue
-```
+> Goes to another breakpoint `continue`
 
 > Deletes all breakpoints `delete breakpoints`
