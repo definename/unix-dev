@@ -4,7 +4,7 @@
 int main(int argc, char* argv[])
 {
 	int var = 0;
-	for (int i = 0; i <= 5; ++i)
+	for (int i = 0; i <= 2; ++i)
 	{
 		var = i;
 		std::cout << var << std::endl;

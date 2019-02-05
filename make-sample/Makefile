@@ -18,11 +18,5 @@ install:
 uninstall:
 	rm -rfv $(PREFIX)/$(TARGET)
 
-main.o: main.cpp
-	g++ $(CXXFLAGS) -c main.cpp
-
-util.o: util.cpp
-	g++ $(CXXFLAGS) -c util.cpp
-
 hello: $(MAIN_OBJ) $(UTIL_OBJ)
 	g++ -o $@ $(MAIN_OBJ) $(UTIL_OBJ)
