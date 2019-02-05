@@ -69,9 +69,9 @@ You just need to trigger `make`
 
 In order to turn on debug support for your program you need to compile it with flag `-g` to allow writing debug information into binary file.
 
-Starts debuger `gdb hello`
-Sets breakpoint on line 10 in file main.cpp `break main.cpp:10`
-Runs program `run`
-Prints value of `var` variable `print var`
-Goes to another breakpoint `continue`
-Deletes all breakpoints `delete breakpoints`
+- Starts debuger `gdb hello`
+- Sets breakpoint on line 10 in file main.cpp `break main.cpp:10`
+- Runs program `run`
+- Prints value of `var` variable `print var`
+- Goes to another breakpoint `continue`
+- Deletes all breakpoints `delete breakpoints`
