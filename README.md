@@ -93,7 +93,4 @@ Goes to another breakpoint
 continue
 ```
 
-Deletes all breakpoints
-```
-delete breakpoints
-```
+> Deletes all breakpoints `delete breakpoints`
