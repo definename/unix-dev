@@ -86,5 +86,5 @@ In order to turn on debug support for your program you need to compile it with f
 
 ## xz
 
-- Decompress `xz -dkv ./coreutils-8.9.tar.xz`
+- Decompress `xz -dvk ./coreutils-8.9.tar.xz`
 - Compress `xz -zvk ./coreutils-8.9.tar`
