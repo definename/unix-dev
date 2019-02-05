@@ -83,3 +83,8 @@ In order to turn on debug support for your program you need to compile it with f
 - List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
 - Create a new archive: `tar -cvf ar.tar file file file`
 - Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
+
+## xz
+
+- Decompress `xz -dkv ./coreutils-8.9.tar.xz`
+- Compress `xz -zvk ./coreutils-8.9.tar`
