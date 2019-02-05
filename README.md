@@ -75,3 +75,5 @@ In order to turn on debug support for your program you need to compile it with f
 - Prints value `var`: `print var`
 - Goes to another breakpoint: `continue`
 - Deletes all breakpoints: `delete breakpoints`
+
+# `autoconf`
