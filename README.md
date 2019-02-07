@@ -122,7 +122,7 @@ As result that command creates `core83_8.30-1_amd64.deb` packages and installs i
 
 In order to check whether `core83_8.30-1_amd64.deb` packahe was installed type `dpkg -l | grep core83`
 
-In order to remove it from system type: `dpkg -r core83`
+In order to remove it from system type: `sudo dpkg -r core83`
 
 In order to install it from `*.deb` package type: `dpkg -i ./core83_8.30-1_amd64.deb`
 
