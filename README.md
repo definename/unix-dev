@@ -96,6 +96,8 @@ To generate MakeFile from MakeFile.in we need to invoke `./configure`, `--prefix
 
 `./configure --prefix=$HOME/mycore`
 
+To build sources use: `make`
+
 To check whether `make install` command works correctly:
 
 `make -n install`
