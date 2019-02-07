@@ -117,3 +117,13 @@ sudo checkinstall --pkgname=core83 --default make install
 
 - `--default` - accepts default answers to all questions
 - `--pkgname` - sets package name
+
+As result that command creates `core83_8.30-1_amd64.deb` packages and installs it in system.
+
+In order to check whether `core83_8.30-1_amd64.deb` packahe was installed type `dpkg -l | grep core83`
+
+In order to remove it from system type: `dpkg -r core83`
+
+In order to install it from `*.deb` package type: `dpkg -i ./core83_8.30-1_amd64.deb`
+
+In order to list all files which were installed with package `core83_8.30-1_amd64.deb` type: `dpkg -L core83`
