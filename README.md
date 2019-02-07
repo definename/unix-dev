@@ -94,15 +94,15 @@ In order to turn on debug support for your program you need to compile it with f
 
 To generate MakeFile from MakeFile.in we need to invoke `./configure`, `--prefix` option tells where to install file with `make install` command:
 
-1. `./configure --prefix=$HOME/mycore`
+`./configure --prefix=$HOME/mycore`
 
 To check whether `make install` command works correctly:
 
-2. `make -n install`
+`make -n install`
 
 To install sources into destination directory which was set with `--prefix` option:
 
-3. `make install`
+`make install`
 
 ## Install with package tool
 
