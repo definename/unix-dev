@@ -78,13 +78,16 @@ In order to turn on debug support for your program you need to compile it with f
 
 # `autoconf`
 
-## tar
+## xz - zip/unzip
+
+- Decompress `xz -dvk ./coreutils-8.9.tar.xz`
+- Compress `xz -zvk ./coreutils-8.9.tar`
+
+
+## tar - pack/unpack
 
 - List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
 - Create a new archive: `tar -cvf ar.tar file file file`
 - Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
 
-## xz
-
-- Decompress `xz -dvk ./coreutils-8.9.tar.xz`
-- Compress `xz -zvk ./coreutils-8.9.tar`
+## Build project from sources
