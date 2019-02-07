@@ -114,3 +114,6 @@ Alternative way to install package in your system is to use `checkinstall` tool.
 ```
 sudo checkinstall --pkgname=core83 --default make install
 ```
+
+`--default` - accepts default answers to all questions
+`--pkgname` - sets package name
