@@ -100,7 +100,7 @@ To build sources use:
 
 `make`
 
-To check whether `make install` command works correctly:
+To check whether `make install` command works correctly (e.g. check destination dir for sources):
 
 `make -n install`
 
