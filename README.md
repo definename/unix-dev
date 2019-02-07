@@ -91,3 +91,5 @@ In order to turn on debug support for your program you need to compile it with f
 - Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
 
 ## Build project from sources
+
+`./configure --prefix=$HOME/mycoreutils`
