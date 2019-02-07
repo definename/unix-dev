@@ -92,4 +92,6 @@ In order to turn on debug support for your program you need to compile it with f
 
 ## Build project from sources
 
+To generate MakeFile from MakeFile.in we need to invoke `./configure`, `--prefix` option tells where to install file with `make install` command
+
 `./configure --prefix=$HOME/mycoreutils`
