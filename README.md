@@ -104,6 +104,10 @@ To build sources use:
 
 `make`
 
+:pushpin: `make clean` - to remove all object files and executables.
+
+:pushpin: `make distclean` - the same as `make clean` additionally removes `Makefiles`, `config.h`, `config.log` etc.
+
 To check whether `make install` command works correctly (e.g. check destination dir for sources):
 
 `make -n install`
