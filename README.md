@@ -96,7 +96,7 @@ To generate `Makefile` from `Makefile.in` we need to invoke `./configure`, `--pr
 
 `./configure --prefix=$HOME/mycore`
 
-NOTE: `./configure --help` - to check more options
+:pushpin: `./configure --help` - to check more options
 
 To build sources use:
 
