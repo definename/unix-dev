@@ -98,6 +98,8 @@ To generate `Makefile` from `Makefile.in` we need to invoke `./configure`, `--pr
 
 :pushpin: `./configure --help` - to check more options
 
+:pushpin: `./configure CPPFLAGS=-DDEBUG` or `CPPFLAGS=-I<include-dir> ./configure` - to pass env vars to `./configure` command
+
 To build sources use:
 
 `make`
