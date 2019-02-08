@@ -97,7 +97,9 @@ To generate `Makefile` from `Makefile.in` we need to invoke `./configure`, `--pr
 `./configure --prefix=$HOME/mycore`
 
 :pushpin: `./configure --help` - to check more options
+
 :pushpin: To be able to build a few version (e.g. debug, release) from same sources you just need to create new folder and invoke `./configure` from it.
+
 
 To build sources use:
 
