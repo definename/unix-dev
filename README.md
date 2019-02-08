@@ -115,6 +115,7 @@ To install sources into destination directory which was set with `--prefix` opti
 ## Install package with instruments to create packages
 
 Alternative way to install package in your system is to use `checkinstall` tool. Instead of `make install` we can use `checkinstall` tool to created `*.deb` package and install it with `dpkg`. In order to do that we need to invoke following command from the directory where `./configure` file is located:
+> dpkg - package manager for Debian
 ```
 sudo checkinstall --pkgname=core83 --default make install
 ```
