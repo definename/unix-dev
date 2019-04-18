@@ -139,4 +139,4 @@ In order to list all files which were installed with package `core83_8.30-1_amd6
 
 # Generate a pseudo terminal (pty) with [socat](http://www.dest-unreach.org/socat/) util
 
-```socat -d -d pty,rawer,link=$HOME/SER1 pty,rawer,link=$HOME/SER2````
+```socat -d -d pty,rawer,link=$HOME/SER1 pty,rawer,link=$HOME/SER2```
