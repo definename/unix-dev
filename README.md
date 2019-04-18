@@ -137,6 +137,6 @@ In order to install it from `*.deb` package type: `sudo dpkg -i ./core83_8.30-1_
 
 In order to list all files which were installed with package `core83_8.30-1_amd64.deb` type: `dpkg -L core83`
 
-# Create serial pair with [socat](http://www.dest-unreach.org/socat/) util
+# Generate a pseudo terminal (pty) with [socat](http://www.dest-unreach.org/socat/) util
 
 ```socat -d -d pty,rawer,link=$HOME/SER1 pty,rawer,link=$HOME/SER2````
