@@ -137,6 +137,8 @@ In order to install it from `*.deb` package type: `sudo dpkg -i ./core83_8.30-1_
 
 In order to list all files which were installed with package `core83_8.30-1_amd64.deb` type: `dpkg -L core83`
 
-# Generate a pseudo terminal (pty) with [socat](http://www.dest-unreach.org/socat/) util
+# Create a pseudo terminal (pty) with [socat](http://www.dest-unreach.org/socat/) util
 
 ```socat -d -d pty,rawer,link=$HOME/SER1 pty,rawer,link=$HOME/SER2```
+
+## Is you failed to open serial port (/dev/ttyS0) with error permitions denied `sudo gpasswd --add ${USER} dialout`, with adds you to the group `dialout` and allows to open serial port as usuall user.
