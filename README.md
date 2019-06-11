@@ -141,4 +141,6 @@ In order to list all files which were installed with package `core83_8.30-1_amd6
 
 ```socat -d -d pty,rawer,link=$HOME/SER1 pty,rawer,link=$HOME/SER2```
 
-## Is you failed to open serial port (/dev/ttyS0) with error permitions denied `sudo gpasswd --add ${USER} dialout`, with adds you to the group `dialout` and allows to open serial port as usuall user.
+## If you failed to open serial port (/dev/ttyS0) with error permitions denied:
+
+Add yourself to `dialout` group in this way: `sudo gpasswd --add ${USER} dialout`
