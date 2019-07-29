@@ -146,6 +146,7 @@ In order to list all files which were installed with package `core83_8.30-1_amd6
 Add yourself to `dialout` group in this way: `sudo gpasswd --add ${USER} dialout`
 
 # Log viewer [multitail](https://www.vanheusden.com/multitail/download.php)
+
 > Multitail allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge.
 
-run `multitail -cS goldengate ./vcu.log `
+run: `multitail -cS goldengate ./vcu.log `
