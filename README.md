@@ -86,9 +86,13 @@ In order to turn on debug support for your program you need to compile it with f
 
 ## tar - pack/unpack
 
-- List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
 - Create a new archive: `tar -cvf ar.tar file file file`
 - Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
+
+- Pack and compress: `tar -czvf rmcp_py.tar.gz ./rmcp_py`
+- Unpack and decompress: `tar -xzvf rmcp_py.tar.gz ./rmcp_py`
+
+- List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
 
 ## Build project from sources
 
