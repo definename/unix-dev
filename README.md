@@ -83,17 +83,6 @@ In order to turn on debug support for your program you need to compile it with f
 - Decompress `xz -dvk ./coreutils-8.9.tar.xz`
 - Compress `xz -zvk ./coreutils-8.9.tar`
 
-
-## tar - pack/unpack
-
-- Create a new archive: `tar -cvf ar.tar file file file`
-- Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
-
-- Pack and compress: `tar -czvf rmcp_py.tar.gz ./rmcp_py`
-- Unpack and decompress: `tar -xzvf rmcp_py.tar.gz ./rmcp_py`
-
-- List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
-
 ## Build project from sources
 
 To generate `Makefile` from `Makefile.in` we need to invoke `./configure`, `--prefix` option tells where to install file with `make install` command:
