@@ -136,7 +136,9 @@ In order to list all files which were installed with package `core83_8.30-1_amd6
 
 ## If you failed to open serial port (/dev/ttyS0) with error permitions denied:
 
-Add yourself to `dialout` group in this way: `sudo gpasswd --add ${USER} dialout`
+- Add yourself to `dialout` group in this way: `sudo gpasswd --add ${USER} dialout`
+
+- Restart computer
 
 # Log viewer [multitail](https://vanheusden.com/multitail/index.php)
 
