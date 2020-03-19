@@ -142,4 +142,4 @@ Add yourself to `dialout` group in this way: `sudo gpasswd --add ${USER} dialout
 
 > Multitail allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge.
 
-run: `multitail -cS goldengate ./vcu.log `
+run: `multitail -cS goldengate ./log.log `
